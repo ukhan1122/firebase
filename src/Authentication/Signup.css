@@ -1,0 +1,85 @@
+/* Reset margin and padding for all elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  
+/* Body styles */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f0f0;
+}
+  
+/* Form container styles */
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+  
+/* Form styles */
+form {
+    width: 250px;
+    padding: 20px;
+    border-radius: 8px;
+    margin: 50px;
+    background-color: rgba(255, 255, 255, 0); /* Transparent background */
+    box-shadow: 19px 4px 56px rgba(166, 41, 148, 0.3);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+ form h2{
+    color: #f0f0f0;
+    margin-bottom: 10px;
+ } 
+form > div {
+    width: 100%;
+}
+  
+form label {
+    color: rgb(255, 255, 255); /* Changed to black for visibility */
+    display: block;
+    margin-bottom: 10px;
+}
+  
+form input {
+    width: 100%; /* Full width to fit container */
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+  
+form .btn-container {
+    display: flex;
+    justify-content: center;
+    width: 100%; /* Ensure the container takes full width */
+}
+  
+form button {
+    width: 100%; /* Button takes full width of the container */
+    padding: 10px; /* Increased padding for better visibility */
+    cursor: pointer;
+    border: none;
+    margin-top: 20px;
+    border-radius: 4px;
+    background: linear-gradient(90deg, #ff69b4, #007bff); 
+    color: white;
+    margin-bottom: 10px;
+}
+form span{
+    color: #f0f0f0;
+    padding: 2px;
+}
+span :link{
+    text-decoration: none;
+    color: #f0f0f0;
+
+}
